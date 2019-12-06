@@ -1,13 +1,16 @@
 # How to Install
 
+### From Github
+
+```{python}
+pip install git+https://github.com/joaopcnogueira/jptools#egg=jptools
+```
+
 ### Locally
 
-1. Clone the repo:
+1. Download or clone the project
 
-```
-```
-
-2. In the `project root` folder, run:
+2. In the project root folder `jptools`, run:
 
 ```
 python setup.py sdist bdist_wheel
@@ -26,6 +29,3 @@ dist/
 ```
 pip install pkgname_YOUR_USERNAME-0.0.1-py3-none-any.whl
 ```
-
-5. To install from GitHub:
-
