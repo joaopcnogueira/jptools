@@ -30,3 +30,8 @@ dist/
 cd dist
 pip install jptools.0.0.1-py3-none-any.whl
 ```
+
+### References
+[Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+[How to Use GitHub as a PyPi Server](https://www.freecodecamp.org/news/how-to-use-github-as-a-pypi-server-1c3b0d07db2/)
