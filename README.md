@@ -13,6 +13,19 @@ pip install git+https://github.com/joaopcnogueira/jptools#egg=jptools
 2. In the project root folder `jptools`, run:
 
 ```bash
+pip install .
+```
+
+The `pip` command will look for a setup.py file to install the package.
+
+
+### Locally by Creating a Wheel File
+
+1. Download or clone the project
+
+2. In the project root folder `jptools`, run:
+
+```bash
 python setup.py sdist bdist_wheel
 ```
 
@@ -30,6 +43,7 @@ dist/
 cd dist
 pip install jptools.0.0.1-py3-none-any.whl
 ```
+
 
 ### References
 [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
